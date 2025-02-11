@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import KPICard from './components/KPICard'
 import KPICardLoader from './components/rcl/KPICardLoader'
+import DeviceFinder from './components/DeviceFinder'
+import ReportBuilder from './components/ReportBuilder'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,6 +34,10 @@ function App() {
       </p>
       <KPICard title='Title' kpi='100' subtitle='Subtitle 100%'  />
       <KPICardLoader />
+
+<DeviceFinder />
+<ReportBuilder />
+
     </>
   )
 }
