@@ -6,7 +6,7 @@ import KPICard from './components/KPICard'
 import KPICardLoader from './components/rcl/KPICardLoader'
 import DeviceFinder from './components/DeviceFinder'
 import ReportBuilder from './components/ReportBuilder'
-
+import ReportBuilderv3 from './components/ReportBuilderv3'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -37,7 +37,9 @@ function App() {
 
 <DeviceFinder />
 <ReportBuilder />
+<br />
 
+<ReportBuilderv3 />
     </>
   )
 }
